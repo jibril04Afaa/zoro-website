@@ -1,0 +1,277 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+
+img {
+    display: block;
+}
+
+.intro-section-container {
+    display: flex;
+    border-bottom: 3px solid rgb(23, 168, 43);
+
+}
+
+.intro-section-container img {
+    border-radius: 25%;
+    width: 300px;
+    height: 200px;
+
+}
+
+.intro-section-container p {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 700px;
+    padding-top: 40px;
+    
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+   
+    
+}
+
+.nav-container li {
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.nav-container li:hover {
+    transform: scale(1.111111);
+    transition: 0.3s all ease-in-out;
+    border-bottom: 3px solid rgb(6, 155, 36);
+}
+
+.title {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+.who{
+    width: 300px;
+    height: 300px;
+}
+
+/*Main container*/
+/*Uses flexbox*/
+
+.main-container {
+    /* border: 3px solid green; */
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/*About Container*/
+.about-container {
+    /* border: 3px solid blue; */
+    width: 40%;
+
+}
+
+.about-container h2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* .about-title-container {
+    position: relative;
+    right: 100px;
+} */
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.sword-in-the-middle img {
+    width: 400px;
+    height: 700px;
+}
+
+
+
+
+
+
+/*Training GIF container*/
+/*Uses flexbox*/
+
+.training-container {
+   /* border: 3px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+.training-container h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+/*Best fights redirect link*/
+.best-fights-redirect {
+    border: 2px solid rgba(21, 255, 0, 0.659);
+    border-radius: 25px;
+
+    
+}
+
+
+
+/*Swords section*/
+/*Uses flexbox*/
+
+#swords-container {
+    /* border: 2px solid red; */
+    height: 724px;
+    display: flex;
+    
+
+}
+
+
+/* Uses flexbox */
+
+.all-swords-container {
+    /* border: 3px solid orange; */
+    height: 720px;
+    /* display: flex;
+    justify-content: right; */
+
+
+}
+
+
+.all-swords-container img {
+    object-fit: fill;
+}
+
+.all-swords-container h2 {
+    align-content: flex-end;
+}
+
+
+
+
+
+/* Swords bio */
+
+.summary-swords {
+    gap: 0.4em;
+    color: rgba(26, 222, 8, 0.672);
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
+
+.summ-swords-imgs {
+    display: flex;
+    height: 545px;
+
+}
+
+#s1 {
+    position: relative;
+    right: 200px;
+}
+
+.swords-bio p {
+    text-shadow: 2px 1px rgba(26, 222, 8, 0.672);
+}
+
+
+
+.summary-swords {
+    text-align: left;
+}
+
+
+
+
+ /* .clickable-sword {
+    width: 200px;
+    height: 700px;
+
+
+}  */
+
+
+
+/* Facts */
+#facts-container {
+    height: 1000px;
+}
+
+
+#facts-container p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+
+#facts-container p:hover {
+    background-color: green;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.facts-list li {
+    list-style-type: lower-greek;
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid rgb(6, 126, 54);
+    background-color: rgb(208, 8, 8);
+    border-radius: 25px;
+}
+
+.thanks-msg {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#facts-container img {
+    
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
